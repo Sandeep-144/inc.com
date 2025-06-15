@@ -59,11 +59,11 @@ async function fetchNews(query) {
 }
 
 // Search button event listener
-searchButton.addEventListener("click", () => {
-    const query = searchText.value;
-    if (!query) return;
-    fetchNews(query); // Fetch news based on the search query
-});
+// searchButton.addEventListener("click", () => {
+//     const query = searchText.value;
+//     if (!query) return;
+//     fetchNews(query); // Fetch news based on the search query
+// });
 
 // Optional: Trigger search when pressing Enter key
 searchText.addEventListener("keydown", (e) => {
